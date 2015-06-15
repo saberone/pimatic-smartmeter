@@ -15,7 +15,7 @@
   ],
   "homepage": "https://github.com/saberone/pimatic-smartmeter.git",
   "keywords": ["pimatic","devices"],
-  "version": "0.0.12",
+  "version": "0.0.13",
   "private": false,
   "repository": {
     "type": "git",

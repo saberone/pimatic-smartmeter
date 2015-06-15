@@ -12,7 +12,7 @@ To enable the smartmeter plugin add this to the plugins in the config.json file.
 ```
 ...
 {
-  "plugin": "smartmeter",
+  "plugin": "smartmeter"
   
 }
 ...
@@ -24,7 +24,7 @@ and add the following to the devices
 {
   "id": "smartmeter",
   "class": "Smartmeterdevice",
-  "name": "smartmeter",
+  "name": "Smartmeter",
   "serialport": "/dev/ttyUSB0",
   "baudRate" : 9600,
   "dataBits" : 7,
@@ -39,5 +39,5 @@ Then install through the standard pimatic plugin install page.
 
 Configuration
 -------------
-You can configure what serialport to use, and the serialport settings. You do this in the plugin section, as you can see in the installation section.
+You can configure what serialport to use, and the serialport settings. You do this in the devices section, as you can see in the installation section.
 
