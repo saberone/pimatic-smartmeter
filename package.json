@@ -1,9 +1,14 @@
-{ "name": "pimatic-smartmeter",
+{
+  "name": "pimatic-smartmeter",
   "description": "Get energy usage data from P1 SmartMeter in pimatic",
   "author": "Saber Karmous <saberone@gmail.com> (https://github.com/saberone)",
   "author_name": "Saber Karmous <saberone@gmail.com> (https://github.com/saberone/)",
   "author_url": "https://github.com/saberone/",
-  "contributors": [ { "name": "Michael Rave"}],
+  "contributors": [
+    {
+      "name": "Michael Rave"
+    }
+  ],
   "npmUser": "saberone",
   "main": "pimatic-smartmeter",
   "files": [
@@ -22,9 +27,9 @@
     "url": "https://github.com/saberone/pimatic-smartmeter.git"
   },
   "bugs": {
-    "url" : "https://github.com/saberone/pimatic-smartmeter.git/issues",
-    "email" : "saberone@gmail.com"
-  },  
+    "url": "https://github.com/saberone/pimatic-smartmeter.git/issues",
+    "email": "saberone@gmail.com"
+  },
   "configSchema": "pimatic-smartmeter-config-schema.coffee",
   "dependencies": {
     "serialport": "^1.7.1"
@@ -36,6 +41,8 @@
     "node": ">0.8.x",
     "npm": ">1.1.x"
   },
-  "license" : "MIT"
-
+  "license": "MIT",
+  "devDependencies": {
+    "commander": "~2.8.1"
+  }
 }

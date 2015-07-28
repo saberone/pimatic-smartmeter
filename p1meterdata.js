@@ -36,11 +36,9 @@ var returnRegExResult = function (data, regex) {
         return undefined;
     }
 
-}; // returnRegExResult
+};
 
-var P1DataStream = function (opts) {
-    console.log('P1DataStream opts ');
-    console.log(opts);
+var P1DataStream = function (opts,logger) {
 
     var self = this;
     self.opts = opts;
@@ -59,9 +57,7 @@ var P1DataStream = function (opts) {
             currentUsage: currentUsage * 1000
         };
 
-        console.log('Raw data received: ' + data);
-        console.log('Parsed data: ');
-        console.log(dataGram);
+	logger(data);
 
         self.emit("data", dataGram);
     };

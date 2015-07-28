@@ -30,6 +30,7 @@ Temporary Items
 # Logs
 logs
 *.log
+p1smartmeter.log
 
 # Runtime data
 pids
