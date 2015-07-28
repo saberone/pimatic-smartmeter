@@ -49,7 +49,7 @@ I cannot give any guarantees that it will work on every P1 smartmeter. But to tr
 , I have added a simple commandline node.js app/tool that dumps the P1 data straight to a file. Please share this dump if you want
 your P1 smartmeter brand/model to be supported. Or better yet, fork + create pull request. ;)
 
-Run the following commands from the root of this plugin. It will
+Run the following commands from the root of this plugin.
 
 ```
 npm install
