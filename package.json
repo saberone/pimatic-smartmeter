@@ -19,10 +19,7 @@
     "p1meterdata.js"
   ],
   "homepage": "https://github.com/saberone/pimatic-smartmeter.git",
-  "keywords": [
-    "pimatic",
-    "devices"
-  ],
+  "keywords": ["pimatic","devices"],
   "version": "0.0.13",
   "private": false,
   "repository": {
