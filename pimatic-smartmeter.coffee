@@ -22,6 +22,7 @@ module.exports = (env) ->
         description: "Actual usage"
         type: "number"
         unit: " Watt"
+        acronym: "Actual usage"
       activetariff:
         description: "Active tariff"
         type: "number"
