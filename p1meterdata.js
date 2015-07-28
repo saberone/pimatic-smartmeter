@@ -38,7 +38,7 @@ var returnRegExResult = function (data, regex) {
 
 };
 
-var P1DataStream = function (opts) {
+var P1DataStream = function (opts,logger) {
 
     var self = this;
     self.opts = opts;
@@ -56,6 +56,8 @@ var P1DataStream = function (opts) {
             currentTariff: currentTariff * 1,
             currentUsage: currentUsage * 1000
         };
+
+	logger(data);
 
         self.emit("data", dataGram);
     };
