@@ -42,7 +42,7 @@ Configuration
 You can configure what serialport to use, and the serialport settings. You do this in the devices section, as you can see in the installation section.
 
 
-"It might works on your machine"-version
+"It might work on your machine"-version
 ---------------------------------------
 The current version has been tested on my own P1 smartmeter, and some Pimatic users have reported that it works for them too.
 I cannot give any guarantees that it will work on every P1 smartmeter. But to try and improve support for different P1 smartmeters
