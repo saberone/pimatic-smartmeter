@@ -56,8 +56,8 @@ var P1DataStream = function (opts,logger) {
             currentTariff: currentTariff * 1,
             currentUsage: currentUsage * 1000
         };
-
-	logger(data);
+	
+        typeof logger === 'function' && logger(data);
 
         self.emit("data", dataGram);
     };
