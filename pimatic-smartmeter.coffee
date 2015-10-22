@@ -35,10 +35,15 @@ module.exports = (env) ->
         description: "Tariff 2 total usage(T2)"
         type: "number"
         unit: " kWh"
+      gastotalusage:
+        description: "Gas total usage"
+        type: "number"
+        unit: "m3"
     actualusage: 0.0
     activetariff: 1
     tariff1totalusage: 0.0
     tariff2totalusage: 0.0
+    gastotalusage: 0.0
 
     constructor: (config) ->
 
@@ -85,11 +90,14 @@ module.exports = (env) ->
         @tariff2totalusage = Number data.tariffTwoTotalUsage
         @emit "tariff2totalusage", Number @tariff2totalusage
 
+        @gastotalusage = Number data.gasTotalUsage
+        @emit "gastotalusage", Number @gastotalusage
 
     getActualusage: -> Promise.resolve @actualusage
     getActivetariff: -> Promise.resolve @activetariff
     getTariff1totalusage: -> Promise.resolve @tariff1totalusage
     getTariff2totalusage: -> Promise.resolve @tariff2totalusage
+    getGastotalusage: -> Promise.resolve @gastotalusage
 
   plugin = new Smartmeter
   return plugin
