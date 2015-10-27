@@ -3,6 +3,7 @@ module.exports = {
   Smartmeterdevice: {
     title: "Smartmeter config options"
     type: "object"
+    extensions: ["xLink", "xAttributeOptions"]
     properties:
       serialport:
         description: "Serialport name (e.g. /dev/ttyUSB0)"
