@@ -7,6 +7,14 @@
   "contributors": [
     {
       "name": "Michael Rave"
+    },
+    {
+      "name": "incmve",
+      "url": "http://www.maredana.nl"
+    },
+    {
+      "name": "Marcus Wittig",
+      "url": "https://github.com/mwittig"
     }
   ],
   "npmUser": "saberone",
@@ -19,7 +27,10 @@
     "p1meterdata.js"
   ],
   "homepage": "https://github.com/saberone/pimatic-smartmeter.git",
-  "keywords": ["pimatic","devices"],
+  "keywords": [
+    "pimatic",
+    "devices"
+  ],
   "version": "0.0.15",
   "private": false,
   "repository": {
