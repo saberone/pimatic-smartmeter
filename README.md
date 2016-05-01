@@ -1,9 +1,11 @@
-pimatic-smartmeter
+pimatic-smartmeter-old
 ===============
 
-[![Join the chat at https://gitter.im/saberone/pimatic-smartmeter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/saberone/pimatic-smartmeter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 Reading "Smartmeter" energy usage through P1 port.
+
+Old version
+------------
+This is the "old" version of pimatic-smartmeter that supports the previous version of pimatic.
 
 Installation
 ------------

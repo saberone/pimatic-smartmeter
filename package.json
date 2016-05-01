@@ -1,5 +1,5 @@
 {
-  "name": "pimatic-smartmeter",
+  "name": "pimatic-smartmeter-old",
   "description": "Get energy usage data from P1 SmartMeter in pimatic",
   "author": "Saber Karmous <saberone@gmail.com> (https://github.com/saberone)",
   "author_name": "Saber Karmous <saberone@gmail.com> (https://github.com/saberone/)",
@@ -35,7 +35,7 @@
     "pimatic",
     "devices"
   ],
-  "version": "0.0.16",
+  "version": "0.0.17",
   "private": false,
   "repository": {
     "type": "git",
