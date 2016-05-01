@@ -47,7 +47,7 @@
   },
   "configSchema": "pimatic-smartmeter-config-schema.coffee",
   "dependencies": {
-    "serialport": "^2.0.6"
+    "serialport": "2.0.6"
   },
   "peerDependencies": {
     "pimatic": ">=0.8.0 <1.0.0"
